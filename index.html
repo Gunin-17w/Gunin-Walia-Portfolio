@@ -1,0 +1,238 @@
+<!--
+  SEG3125 Assignment 1 Portfolio
+  Created by Gunin Walia
+  This site uses Bootstrap for responsive layout and custom CSS for personal styling.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gunin Walia | UI Design Portfolio</title>
+
+  <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Gunin Walia</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#focus">Technical Focus</a></li>
+          <li class="nav-item"><a class="nav-link" href="#process">How I Work</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Case Studies</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero-section text-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Hi, I’m Gunin Walia</h1>
+      <p class="lead">
+        A Computer Science student interested in UI design, web development, software quality, and data-driven applications.
+      </p>
+      <a href="#projects" class="btn btn-primary btn-lg mt-3">View My Work</a>
+    </div>
+  </header>
+
+  <!-- About Me -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        I am a Bachelor of Science in Computer Science student at the University of Ottawa. 
+        My background includes software development, data analysis, testing, and building full-stack and mobile applications.
+        I enjoy creating digital tools that are clear, reliable, and useful for users.
+      </p>
+      <p>
+        Through my academic projects and work experience, I have worked with technologies such as Java, Python, JavaScript,
+        SQL, HTML/CSS, React, Node.js, Firebase, and PostgreSQL. This portfolio will be used throughout SEG3125 to present
+        my design work and show how my understanding of user interface design develops over the semester.
+      </p>
+    </div>
+  </section>
+
+  <!-- Technical Focus -->
+  <section id="focus" class="section-padding focus-section">
+    <div class="container">
+      <h2 class="section-title">My Technical Focus</h2>
+      <p class="mb-4">
+        My background combines software development, data analysis, testing, and user interface design.
+        I wanted this portfolio to reflect the areas I am currently building experience in.
+      </p>
+
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="focus-card">
+            <h5>Full-Stack Development</h5>
+            <p>
+              Experience building web applications with React, Node.js, Express, SQL, and PostgreSQL.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="focus-card">
+            <h5>Data & Reporting</h5>
+            <p>
+              Experience working with data workflows, validation, structured outputs, and reporting tools.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="focus-card">
+            <h5>Testing & QA</h5>
+            <p>
+              Experience with software testing, Selenium scripts, debugging, and defect documentation.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="focus-card">
+            <h5>UI Design</h5>
+            <p>
+              Currently developing stronger visual communication and interface design skills through SEG3125.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How I Work -->
+  <section id="process" class="section-padding bg-light">
+    <div class="container">
+      <h2 class="section-title">How I Work</h2>
+      <p>
+        My current design process combines my programming background with the visual communication principles I am learning
+        in SEG3125. I start by understanding the purpose of the interface, then I plan the layout, build a working version,
+        test the experience, and improve the design based on feedback.
+      </p>
+
+      <div class="row mt-4">
+        <div class="col-md-3">
+          <div class="info-box">
+            <h5>Understand</h5>
+            <p>Identify the goal, audience, and main user needs.</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="info-box">
+            <h5>Plan</h5>
+            <p>Organize layout, content, navigation, and visual hierarchy.</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="info-box">
+            <h5>Build</h5>
+            <p>Create the interface using HTML, CSS, Bootstrap, and JavaScript.</p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="info-box">
+            <h5>Improve</h5>
+            <p>Test links, review clarity, and refine the design based on feedback.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Case Studies -->
+  <section id="projects" class="section-padding">
+    <div class="container">
+      <h2 class="section-title">Case Studies</h2>
+      <p class="mb-4">
+        These future case studies will be completed throughout the semester. Each card currently links to a placeholder page.
+      </p>
+
+      <div class="row g-4">
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100">
+            <img src="images/service.jpg" class="card-img-top project-img" alt="Tech repair service website preview">
+            <div class="card-body">
+              <h5 class="card-title">Tech Repair Service Site</h5>
+              <p class="card-text">A future service website for a technology repair business.</p>
+              <a href="service.html" class="btn btn-outline-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100">
+            <img src="images/memory.jpg" class="card-img-top project-img" alt="Memory game preview">
+            <div class="card-body">
+              <h5 class="card-title">Memory Game</h5>
+              <p class="card-text">A future interactive memory game focused on simple and engaging gameplay.</p>
+              <a href="memory.html" class="btn btn-outline-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100">
+            <img src="images/ecommerce.jpg" class="card-img-top project-img" alt="E-commerce website preview">
+            <div class="card-body">
+              <h5 class="card-title">E-Commerce Site</h5>
+              <p class="card-text">A future online shopping interface with product browsing and checkout design.</p>
+              <a href="ecommerce.html" class="btn btn-outline-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100">
+            <img src="images/analytics.jpg" class="card-img-top project-img" alt="Sports analytics website preview">
+            <div class="card-body">
+              <h5 class="card-title">Sports Stats Dashboard</h5>
+              <p class="card-text">A future analytics site focused on sports statistics and data visualization.</p>
+              <a href="analytics.html" class="btn btn-outline-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-white py-4">
+    <p class="mb-1">© 2026 Gunin Walia | SEG3125 Portfolio</p>
+    <p class="mb-1">Computer Science Student | University of Ottawa</p>
+    <p class="mb-0">
+      gunin17.walia@gmail.com | github.com/Gunin-17w | linkedin.com/in/gwa6
+    </p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

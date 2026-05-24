@@ -1,0 +1,181 @@
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    color: #222;
+    line-height: 1.6;
+    padding-top: 56px;
+    background-color: #ffffff;
+  }
+  
+  /* Montreal Canadiens-inspired color palette:
+     Red: #AF1E2D
+     Blue: #192168
+     White: #FFFFFF
+  */
+  
+  .navbar {
+    background-color: #192168 !important;
+  }
+  
+  .navbar-brand {
+    letter-spacing: 0.3px;
+  }
+  
+  .nav-link {
+    font-weight: 500;
+  }
+  
+  .hero-section {
+    background-image: 
+      linear-gradient(rgba(25, 33, 104, 0.65), rgba(175, 30, 45, 0.45)),
+      url("images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 130px 20px;
+  }
+  
+  .hero-section h1 {
+    font-weight: 800;
+  }
+  
+  .hero-section .lead {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .section-padding {
+    padding: 70px 20px;
+  }
+  
+  .section-title {
+    font-weight: 800;
+    margin-bottom: 25px;
+    color: #192168;
+    border-left: 6px solid #AF1E2D;
+    padding-left: 12px;
+  }
+  
+  .bg-light {
+    background-color: #f7f8fc !important;
+  }
+  
+  /* Technical Focus section */
+  
+  .focus-section {
+    background-color: #ffffff;
+  }
+  
+  .focus-card {
+    background: linear-gradient(180deg, #ffffff 0%, #f7f8fc 100%);
+    border: 1px solid #ddd;
+    border-left: 6px solid #AF1E2D;
+    border-radius: 14px;
+    padding: 24px;
+    height: 100%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .focus-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.14);
+  }
+  
+  .focus-card h5 {
+    color: #192168;
+    font-weight: 800;
+    margin-bottom: 12px;
+  }
+  
+  .focus-card p {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+  }
+  
+  /* How I Work boxes */
+  
+  .info-box {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-top: 5px solid #AF1E2D;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    height: 100%;
+  }
+  
+  .info-box h5 {
+    color: #192168;
+    font-weight: 700;
+  }
+  
+  .info-box p {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+  }
+  
+  /* Case study cards */
+  
+  .card {
+    border: none;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    overflow: hidden;
+    border-bottom: 5px solid #192168;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  }
+  
+  .project-img {
+    height: 170px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    color: #192168;
+    font-weight: 700;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+  }
+  
+  /* Buttons */
+  
+  .btn-primary {
+    background-color: #AF1E2D;
+    border-color: #AF1E2D;
+    font-weight: 600;
+  }
+  
+  .btn-primary:hover {
+    background-color: #941927;
+    border-color: #941927;
+  }
+  
+  .btn-outline-primary {
+    color: #AF1E2D;
+    border-color: #AF1E2D;
+    font-weight: 600;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #AF1E2D;
+    border-color: #AF1E2D;
+    color: #ffffff;
+  }
+  
+  /* Footer */
+  
+  footer {
+    margin-top: 30px;
+    background-color: #192168 !important;
+    border-top: 6px solid #AF1E2D;
+  }
